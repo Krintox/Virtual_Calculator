@@ -10,8 +10,8 @@ from calc_engine import safe_eval, CalcError
 
 # --- Configuration (tweakable) ---
 PINCH_THRESHOLD_RATIO = 0.04   # fraction of frame width -> pinch threshold
-DWELL_FRAMES = 12              # frames of dwell to trigger press
-COOLDOWN_FRAMES = 12           # after a press, cooldown to avoid repeats
+DWELL_FRAMES = 24              # frames of dwell to trigger press
+COOLDOWN_FRAMES = 24           # after a press, cooldown to avoid repeats
 
 # --- Setup MediaPipe ---
 mp_hands = mp.solutions.hands
